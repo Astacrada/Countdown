@@ -1,0 +1,140 @@
+html, body {
+    /*background: transparent !important;*/
+    /*background: rgba(24,24,24, 0.4) !important;*/
+    background: #3c5298 !important;
+	/*background: transparent !important;*/
+    color: #fff !important;
+}
+
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,0.4);
+	border: 8px solid #3c5298;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    background: rgba(0,0,0,1);
+	border: 8px solid #222;
+}
+
+a {
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+#titlebar {
+  -ms-overflow-style: scrollbar;
+  -webkit-app-region: drag;
+  -webkit-user-select: none;
+
+  height: 38px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding-left: 80px;
+  z-index: 998 !important;
+
+  -webkit-transition: all 0.5s ease-out;
+  -moz-transition: all 0.5s ease-out;
+  -o-transition: all 0.5s ease-out;
+  transition: all 0.5s ease-out;
+}
+
+#titlebar #page-title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+
+.big-number {
+	margin-top: 80px;
+	margin-bottom: 60px;
+	display: block;
+	text-align: center;
+}
+
+.big-number p {
+	font-size: 2em;
+	margin: 20px;
+}
+
+.big-number-digit {
+	font-size: 3em;
+	margin: 2px;
+	padding: 20px;
+	color: #000;
+	background: #fff;
+	border-radius: 5px;
+	display: inline-block;
+	text-align: center;
+}
+
+.equation {
+	display: block;
+	text-align: center;
+	margin-bottom: 60px;
+	width: 100%;
+}
+
+.equation-input {
+	font-size: 1.8em;
+	color: #000;
+	background: #fff;
+	border-radius: 5px;
+	padding: 4px;
+	text-align: center;
+	min-width: 250px;
+	height: 1.8em;
+}
+
+.equation-input span {
+	margin: 0 6px;
+}
+
+.equation .input-container {
+	margin: 0 auto;
+	display: inline-block;
+	position: relative;
+}
+
+.equation .input-container .delete-item {
+	position: absolute;
+	right: -35px;
+	top: 10px;
+	font-size: 2em;
+    cursor: pointer;
+}
+
+.equation p {
+	font-size: 1em;
+	margin: 20px;
+}
+
+.options {
+	display: block;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.options .option, #check {
+	padding: 10px;
+	background: #35362a;
+	color: #fff;
+	border-radius: 5px;
+	outline: none;
+	border: none;
+    margin: 5px;
+}
